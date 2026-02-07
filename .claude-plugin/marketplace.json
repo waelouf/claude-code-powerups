@@ -1,5 +1,5 @@
 {
-  "name": "Claude Code Powerups",
+  "name": "claude-code-powerups",
   "owner": {
     "name": "Wael Mansour"
   },
@@ -9,21 +9,21 @@
   },
   "plugins": [
     {
-      "name": "Clean Architecture Powerup",
+      "name": "clean-architecture-powerup",
       "source": {
         "source": "github",
         "repo": "waelouf/cc-powerup-clean-architecture"
       }
     },
     {
-      "name": "Azure Architect Powerup",
+      "name": "azure-architect-powerup",
       "source": {
         "source": "github",
         "repo": "waelouf/cc-powerup-azure-architect"
       }
     },
     {
-      "name": "OWASP LLM Top 10 Security Auditor Powerup",
+      "name": "owasp-llm-auditor-powerup",
       "source": {
         "source": "github",
         "repo": "waelouf/cc-powerup-owasp-llm"
