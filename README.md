@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/logo.png" alt="Claude Code Powerups Logo" width="200"/>
 
-  [![GitHub release](https://img.shields.io/github/v/release/waelouf/claude-code-powerups?style=flat-square)](https://github.com/waelouf/claude-code-powerups/releases)
+  
   [![License](https://img.shields.io/github/license/waelouf/claude-code-powerups?style=flat-square)](LICENSE)
   [![GitHub stars](https://img.shields.io/github/stars/waelouf/claude-code-powerups?style=flat-square)](https://github.com/waelouf/claude-code-powerups/stargazers)
 
