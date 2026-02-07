@@ -4,7 +4,7 @@
   <img src="assets/logo.png" alt="Claude Code Powerups Logo" width="200"/>
 
   
-  [![License](https://img.shields.io/github/license/waelouf/claude-code-powerups?style=flat-square)](LICENSE)
+  [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
   [![GitHub stars](https://img.shields.io/github/stars/waelouf/claude-code-powerups?style=flat-square)](https://github.com/waelouf/claude-code-powerups/stargazers)
 
   **A curated marketplace of professional-grade Claude Code plugins**
@@ -91,7 +91,9 @@ Powerups are specialized Claude Code plugins that extend Claude's capabilities w
 
 ## 📄 License
 
-See individual plugin repositories for license information.
+This marketplace is licensed under the [MIT License](LICENSE).
+
+Individual plugins may have their own licenses - please refer to each plugin's repository for details.
 
 ---
 
