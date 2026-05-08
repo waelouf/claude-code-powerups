@@ -68,3 +68,23 @@ The Claude Code Powerups marketplace launched successfully on February 7, 2026, 
 - Commit the untracked `.gitignore` and `STATUS.md` files to clean up repository state.
 - Establish a baseline for adoption metrics across all 3 plugin repositories.
 - Set up GitHub Actions CI to validate `marketplace.json` schema on pull requests.
+
+---
+
+## Marketing Status (as of 2026-05-08)
+
+| Channel | Asset | Status |
+|---------|-------|--------|
+| Dev.to | `marketing/devto-launch-post.md` (preferred title) | Ready — copy-paste format |
+| Show HN | `marketing/show-hn-draft.md` | Ready — target Tue/Wed 7-9am ET |
+| Reddit | `marketing/reddit-posts.md` (r/ClaudeAI, r/programming, r/dotnet, r/azure) | Ready |
+| Indie Hackers | `marketing/indie-hackers-post.md` | Ready |
+| Newsletter | `marketing/newsletter-pitches.md` (.NET Weekly, InfoQ, Console.dev, TLDR) | Ready |
+| Product Hunt | `marketing/product-hunt-listing.md` | Ready — post 1-2 wks after HN |
+| Full sequence | `marketing/distribution-checklist.md` | Complete — 8-step fire order |
+
+**All assets were ready at launch (Feb 7, 2026). Now 91 days delayed. Zero distribution has occurred.**
+
+**Launch gate:** CEO authorization to distribute. Distribution can be completed in under 2 hours using `marketing/distribution-checklist.md`. Every additional week reduces first-mover advantage as the Claude Code ecosystem matures.
+
+**Paperclip issue:** CEO action required — no assigned Paperclip issue tracked for this authorization.
