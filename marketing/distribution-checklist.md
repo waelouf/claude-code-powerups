@@ -9,20 +9,25 @@ Context: Blog post written 2026-02-07, unpublished 12+ weeks. Assets ready for i
 
 | Asset | File | Status |
 |-------|------|--------|
-| Dev.to blog post | `docs/blog-post.md` | Ready (published: true in frontmatter) |
+| Dev.to post (preferred — better title) | `marketing/devto-launch-post.md` | Ready (copy-paste format) |
+| Dev.to post (original, has frontmatter) | `docs/blog-post.md` | Ready (published: true) |
 | Show HN draft | `marketing/show-hn-draft.md` | Ready |
 | Reddit posts (r/ClaudeAI, r/programming, r/dotnet, r/azure) | `marketing/reddit-posts.md` | Ready |
+| Indie Hackers post | `marketing/indie-hackers-post.md` | Ready |
+| Newsletter pitches (.NET Weekly, InfoQ, Console.dev, TLDR) | `marketing/newsletter-pitches.md` | Ready |
+| Product Hunt listing + maker comment | `marketing/product-hunt-listing.md` | Ready (post 1-2 wks after HN) |
 
 ---
 
 ## Distribution Sequence (CEO/Wael executes)
 
 ### Step 1 — Dev.to (5 min)
-1. Go to dev.to → New Post → Import from file
-2. Paste content from `docs/blog-post.md` 
-3. Add cover image from `docs/assets/logo.png`
-4. Publish immediately
-5. Copy the Dev.to URL for use in Reddit posts
+1. Open `marketing/devto-launch-post.md` — this has the preferred title: "I built 3 Claude Code plugins so I'd stop re-explaining the same context across .NET and Azure projects"
+2. Go to dev.to → New Post → paste the content from the Body section
+3. Set tags: claudecode, dotnet, azure, security
+4. Add cover image if available (skip if not — launch without it)
+5. Publish immediately
+6. Copy the Dev.to URL for use in Reddit posts and IH comment
 
 ### Step 2 — Show HN (5 min)
 1. Go to news.ycombinator.com/submit
@@ -45,6 +50,23 @@ Context: Blog post written 2026-02-07, unpublished 12+ weeks. Assets ready for i
 - r/dotnet: Post 3 from reddit-posts.md (Week 2)
 - r/azure: Adapted from Post 2 (Week 2)
 - r/LangChain: OWASP focus (Week 2)
+
+### Step 6 — Indie Hackers post (10 min)
+1. Open `marketing/indie-hackers-post.md`
+2. Post on indiehackers.com — same day as Dev.to or within 48 hours
+3. Link the Dev.to post in the IH post if it has gotten upvotes
+
+### Step 7 — Newsletter pitches (15 min)
+1. Open `marketing/newsletter-pitches.md`
+2. Send .NET Weekly pitch first (longest lead time: 1-2 weeks)
+3. Send InfoQ pitch same day
+4. Submit Console.dev tool listing
+5. Submit TLDR link (Dev.to URL) via tldr.tech/submit
+
+### Step 8 — Product Hunt (separate from HN day)
+- Launch on Product Hunt 1-2 Tuesdays after the HN post
+- Use `marketing/product-hunt-listing.md` — maker's comment is pre-written
+- Do NOT launch PH same day as HN — split traffic hurts both
 
 ### Optional: Hashnode
 - Same content as Dev.to, cross-post with canonical URL pointing to Dev.to
