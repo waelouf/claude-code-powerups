@@ -12,7 +12,7 @@ Context: Blog post written 2026-02-07, unpublished 12+ weeks. Assets ready for i
 | Dev.to post (preferred — better title) | `marketing/devto-launch-post.md` | Ready (copy-paste format) |
 | Dev.to post (original, has frontmatter) | `docs/blog-post.md` | Ready (published: true) |
 | Show HN draft | `marketing/show-hn-draft.md` | Ready |
-| Reddit posts (r/ClaudeAI, r/programming, r/dotnet, r/azure) | `marketing/reddit-posts.md` | Ready |
+| Reddit posts (r/ClaudeAI, r/programming, r/dotnet, r/azure, r/LangChain) | `marketing/reddit-posts.md` | Ready — 5 posts total |
 | Indie Hackers post | `marketing/indie-hackers-post.md` | Ready |
 | Newsletter pitches (.NET Weekly, InfoQ, Console.dev, TLDR) | `marketing/newsletter-pitches.md` | Ready |
 | Product Hunt listing + maker comment | `marketing/product-hunt-listing.md` | Ready (post 1-2 wks after HN) |
@@ -47,9 +47,9 @@ Context: Blog post written 2026-02-07, unpublished 12+ weeks. Assets ready for i
 3. Check r/programming rules — self-promotion usually allowed with technical framing
 
 ### Step 5 — Domain-specific subreddits (10 min total)
-- r/dotnet: Post 3 from reddit-posts.md (Week 2)
-- r/azure: Adapted from Post 2 (Week 2)
-- r/LangChain: OWASP focus (Week 2)
+- r/dotnet: Post 3 from reddit-posts.md (Week 2) — Clean Architecture Powerup angle
+- r/azure: Post 4 from reddit-posts.md (Week 2) — Azure Architect Powerup, IaC + CI/CD focus
+- r/LangChain: Post 5 from reddit-posts.md (Week 2) — OWASP LLM security auditor focus
 
 ### Step 6 — Indie Hackers post (10 min)
 1. Open `marketing/indie-hackers-post.md`

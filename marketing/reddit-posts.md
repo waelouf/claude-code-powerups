@@ -135,9 +135,88 @@ Would love feedback from others doing CA in .NET — especially on the audit det
 
 ---
 
+## Post 4: r/azure (Week 2)
+
+**Title:**
+```
+Claude Code plugin for Azure IaC and CI/CD — generates Bicep/Terraform, GitHub Actions pipelines, and multi-env configs
+```
+
+**Body:**
+```
+I built a Claude Code plugin specifically for Azure infrastructure work: Azure Architect Powerup.
+
+**What it does:**
+
+- **Infrastructure-as-code generation** — prompts Azure resource requirements, outputs Bicep or Terraform. Covers VNets, App Services, AKS, SQL, storage, Key Vault, with production-grade defaults (private endpoints, diagnostics, tagging).
+- **CI/CD pipeline scaffolding** — generates GitHub Actions and Azure DevOps pipelines for .NET apps, including build, test, and deployment stages across environments.
+- **Multi-environment configs** — dev/staging/prod environment templates with parameter files, environment-specific overrides, and consistent naming conventions.
+- **Security and monitoring defaults** — NSGs, Key Vault references for secrets (not inline), Log Analytics workspace wiring, alerts. Not optional add-ons — built into generated templates.
+- **Cost optimization guidance** — flags expensive defaults (reserved capacity, right-sizing, dev environment scale-downs).
+
+Install:
+```bash
+claude-code plugin install waelouf/cc-powerup-azure-architect
+```
+
+Or with the full suite:
+```bash
+claude-code plugin install waelouf/claude-code-powerups
+```
+
+GitHub: github.com/waelouf/claude-code-powerups
+
+Would love feedback from Azure practitioners — especially on the Bicep output quality and whether the multi-env pattern matches what you'd actually use in production.
+```
+
+---
+
+## Post 5: r/LangChain (Week 2)
+
+**Title:**
+```
+Open-source Claude Code plugin for OWASP LLM Top 10 security audits — scans your AI app code before you deploy
+```
+
+**Body:**
+```
+Built an OWASP LLM Top 10 security auditor as a Claude Code plugin. Useful if you're building LLM applications (LangChain, LlamaIndex, Claude/GPT integrations, RAG pipelines) and want to scan for known vulnerability patterns before deploying.
+
+**What it covers (OWASP LLM Top 10):**
+
+- LLM01 Prompt Injection — unsanitized user input passed to prompts, jailbreak surface area
+- LLM02 Insecure Output Handling — unescaped model output rendered in browsers or shells
+- LLM03 Training Data Poisoning — data pipeline hygiene, source validation
+- LLM04 Model Denial of Service — unbounded input sizes, rate limiting gaps
+- LLM05 Supply Chain Vulnerabilities — third-party model and plugin dependencies
+- LLM06 Sensitive Information Disclosure — PII in prompts, logs, stored completions
+- LLM07 Insecure Plugin Design — plugin/tool call trust boundaries
+- LLM08 Excessive Agency — tool permissions, action reversibility, approval gates
+- LLM09 Overreliance — missing fallbacks, no human review gates for high-stakes decisions
+- LLM10 Model Theft — API key exposure, model endpoint access controls
+
+**Output:** structured risk report per finding, severity rating, remediation guidance. Designed to run as a pre-deployment check.
+
+Install:
+```bash
+claude-code plugin install waelouf/cc-powerup-owasp-llm
+```
+
+Or with the full suite:
+```bash
+claude-code plugin install waelouf/claude-code-powerups
+```
+
+GitHub: github.com/waelouf/claude-code-powerups
+
+Curious what security checks others are running on their LLM pipelines before shipping — anything you'd add to the OWASP list?
+```
+
+---
+
 ## Timing
 
 - **Day 1 (immediately after CEO authorization):** Post r/ClaudeAI
 - **Day 1 (same day, stagger 2h):** Post to HN (see show-hn-draft.md)
 - **Day 2:** Post r/programming
-- **Week 2:** Post r/dotnet, r/azure, r/LangChain
+- **Week 2:** Post r/dotnet, then r/azure, then r/LangChain (1-2 days apart)
