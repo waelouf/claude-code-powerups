@@ -11,8 +11,9 @@ Status: Submit as "upcoming" same week as Show HN. Requires CEO authorization (M
 
 **Tagline** (60 chars max):
 ```
-Claude Code plugins: Clean Arch, Azure IaC, OWASP LLM security
+Claude Code plugins: Clean Arch, Azure IaC, OWASP LLM
 ```
+*53 chars.*
 
 **Description** (260 chars):
 ```
