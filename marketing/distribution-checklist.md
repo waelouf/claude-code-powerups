@@ -19,6 +19,19 @@ Context: Blog post written 2026-02-07, unpublished 12+ weeks. Assets ready for i
 
 ---
 
+## Pre-Launch Verification (5 min before any posting)
+
+Verify all 4 GitHub repos are public and accessible before posting install commands:
+
+- [ ] github.com/waelouf/claude-code-powerups (marketplace — required for Show HN URL)
+- [ ] github.com/waelouf/cc-powerup-clean-architecture (referenced in all install commands)
+- [ ] github.com/waelouf/cc-powerup-azure-architect
+- [ ] github.com/waelouf/cc-powerup-owasp-llm
+
+If any are private or 404: do NOT post the install commands in that post. Use the marketplace URL only (`github.com/waelouf/claude-code-powerups`) until all repos are public.
+
+---
+
 ## Distribution Sequence (CEO/Wael executes)
 
 ### Step 1 — Dev.to (5 min)
