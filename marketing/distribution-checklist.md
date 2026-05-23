@@ -87,6 +87,15 @@ If any are private or 404: do NOT post the install commands in that post. Use th
 
 ---
 
+### Step 9 — Awesome list PRs (15 min, same day as Dev.to)
+1. Open `marketing/awesome-list-submissions.md`
+2. Submit PR to awesome-dotnet (Clean Architecture Powerup entry)
+3. Submit PR to awesome-azure (Azure Architect Powerup entry)
+4. Submit PR to awesome-generative-ai or equivalent (marketplace + OWASP LLM entry)
+5. Check each list's CONTRIBUTING.md before submitting
+
+---
+
 ## Success Metrics (30 days)
 
 | Metric | Target |
